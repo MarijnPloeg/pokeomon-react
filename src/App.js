@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
 
+//Components
+import CardList from "./components/cardList/CardList";
+
 function App() {
-  return (
-    <div>
-      Begin hier met de opdracht!
-    </div>
-  );
+    return (
+        <>
+            <CardList />
+        </>
+    );
 }
 
 export default App;

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+
+}
+
+.cards {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemonLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 20px ;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navButton {
+    width: 150px;
+    height: 45px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    margin: 5px;
+}
+
+.navButton:hover {
+    background-color: orange;
+    border: 2px solid red;
+    color: black;
+    cursor: pointer;
+}
+
+button:focus {outline:0;}

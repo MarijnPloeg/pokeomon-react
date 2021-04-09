@@ -1,0 +1,6 @@
+#root {
+    box-sizing: border-box;
+    background: rgb(58,177,180);
+    background: linear-gradient(313deg, rgba(58,177,180,1) 0%, rgba(29,79,253,1) 0%, rgba(252,121,69,1) 100%);
+}
+
